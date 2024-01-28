@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class ExitGameButton : MonoBehaviour
 {
 
-    void Exit_Game(){
+    public void Exit_Game(){
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
